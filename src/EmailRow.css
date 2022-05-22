@@ -1,8 +1,8 @@
 .emailRow{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    height: auto;
+    align-items: center;
+    height: 50px;
     border-bottom: 1px solid whitesmoke;
     cursor: pointer;
     z-index: 999;
@@ -15,14 +15,14 @@
 
 .emailRow__options{
     display: flex;
-
+    align-items: center;
 }
 
 .emailRow__message {
     display: flex;
     flex-direction: 0.8;
     align-items: center;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 .emailRow__message > h4 {
@@ -49,3 +49,4 @@
     font-weight: 400;
     color: gray;
 }
+
